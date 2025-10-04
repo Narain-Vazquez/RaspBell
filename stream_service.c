@@ -1,5 +1,6 @@
 // Code for Live-Streaming Camera Data
 
+#include "stream_util.h"
 #include <libavcodec/avcodec.h>
 #include <stdio.h>
 
