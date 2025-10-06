@@ -12,5 +12,7 @@ extern AVCodec *codec;
 extern AVCodecContext *codec_ctx;
 
 void init_codec();
+int init_camera(const char* device_name);
+int capture_frame(AVFrame **frame):
 
 #endif
